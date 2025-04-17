@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements MakananAdapter.on
         listMakanan.add(new ModelMakanan("Nasi Padang", "Rp 20.000", R.drawable.nasipadang));
         listMakanan.add(new ModelMakanan("Mie Ayam", "Rp 15.000", R.drawable.mieayam));
         listMakanan.add(new ModelMakanan("Ayam Goreng", "Rp 24.000", R.drawable.ayamgoreng));
+        listMakanan.add(new ModelMakanan("Kare Katsu", "Rp 45.000", R.drawable.karekatsu));
+        listMakanan.add(new ModelMakanan("Chicken Katsu", "Rp 20.000", R.drawable.katsu));
 
         MakananAdapter makananAdapter = new MakananAdapter(listMakanan, this);
         rvListMakanan.setAdapter(makananAdapter);
